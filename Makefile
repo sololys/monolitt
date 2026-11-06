@@ -1,17 +1,19 @@
 # ==============================================================================
-# SOLOLYS // RELIKVIEHALLEN (THE RELIQUARY) — FORMAL VERIFICATION CONTRACT
-# STATE ANCHOR: 0xABCDEF00 | LICENSE: ALL RIGHTS RESERVED (PROPRIETARY SHOWROOM)
+# MONOLITT // RING II BLACK-BOX MONOLITH INDEX (0xABCDEF00)
+# Fail-Closed Verification Makefile (Default State: HOLD // 0.00 V DC)
 # ==============================================================================
 
 .DEFAULT_GOAL := hold
-.PHONY: hold verify
+.PHONY: hold verify test
 
 hold:
-	@echo "[HOLD // 0.00 V DC] Reliquary display cases are sealed. Implicit execution is denied."
+	@echo "[HOLD // 0.00 V DC] Monolith blocks are sealed. Implicit execution is denied."
 	@echo "Run 'make verify' to audit the 11 Ring II Black-Box Monolith cryptographic seals."
 	@exit 1
 
 verify:
-	@python3 verify_reliquary_seals.py --verify
-	@python3 -m unittest -v verify_reliquary_seals.py
-	@echo "[RELIQUARY_GATE=PASS // 12/12] All 11 Ring II Black-Box Monolith seals verified at 0xABCDEF00 (0.00 V DC)."
+	@python3 verify_monolith_seals.py --verify
+	@python3 -m unittest verify_monolith_seals.py -v
+	@echo "[MONOLITH_GATE=PASS // 12/12] All 11 Ring II Black-Box Monolith seals verified at 0xABCDEF00 (0.00 V DC)."
+
+test: verify

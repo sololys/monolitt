@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-RELIKVIEHALLEN // Zero-Knowledge & Cryptographic Seal Verifier (0xABCDEF00)
-===========================================================================
+MONOLITT // Zero-Knowledge & Cryptographic Seal Verifier (0xABCDEF00)
+=====================================================================
 Deterministic verification suite for the 11 Ring II Sovereign Monoliths.
 
 Boundary Contract:
   - Evidence Tier: L1 (Locally demonstrated deterministic software only).
   - Epistemic Boundary: INSPIRED_BY != IMPLEMENTS != PROVES.
   - IP Redaction: Zero internal source code, process parameters, or open-source
-    licenses are exposed in this showroom. All rights reserved.
+    licenses are exposed in this monolith index. All rights reserved.
 """
 
 from __future__ import annotations
@@ -136,7 +136,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
 )
 
 
-def compute_reliquary_merkle_root() -> str:
+def compute_monolith_merkle_root() -> str:
     acc = hashlib.sha256(b"RELIKVIEHALLEN_0xABCDEF00_GENESIS").digest()
     for m in RING_II_MONOLITHS:
         leaf = bytes.fromhex(m.sha256_seal())
@@ -144,7 +144,7 @@ def compute_reliquary_merkle_root() -> str:
     return acc.hex()
 
 
-class TestReliquaryShowroom(unittest.TestCase):
+class TestMonolithIndex(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.repo_root = pathlib.Path(__file__).resolve().parent
@@ -153,12 +153,11 @@ class TestReliquaryShowroom(unittest.TestCase):
 
     def test_00_zero_ip_leakage_and_merkle_root(self) -> None:
         self.assertEqual(len(RING_II_MONOLITHS), 11)
-        merkle = compute_reliquary_merkle_root()
+        merkle = compute_monolith_merkle_root()
         self.assertEqual(len(merkle), 64)
         self.assertIn(merkle[:16], self.readme_text)
         self.assertIn("ALL RIGHTS RESERVED", self.readme_text)
         self.assertIn("INSPIRED_BY != IMPLEMENTS != PROVES", self.readme_text)
-        # Ensure no open-source license grant or internal file extensions leak
         forbidden_tokens = (
             "Permission is hereby granted, free of charge",
             "Apache License, Version 2.0",
@@ -214,11 +213,11 @@ class TestReliquaryShowroom(unittest.TestCase):
 if __name__ == "__main__":
     if "--print-seals" in sys.argv or "--verify" in sys.argv:
         print(
-            f"[RELIKVIEHALLEN // 0xABCDEF00] Auditing 11 Ring II Monolith Seals "
-            f"(Merkle: {compute_reliquary_merkle_root()[:16]}...)"
+            f"[MONOLITT // 0xABCDEF00] Auditing 11 Ring II Monolith Seals "
+            f"(Merkle: {compute_monolith_merkle_root()[:16]}...)"
         )
         for m in RING_II_MONOLITHS:
             print(f"  {m.monolith_id:<13} | {m.codename:<30} | {m.witness_head} | {m.sha256_seal()[:16]}")
-        print(f"  MERKLE_ROOT   | {compute_reliquary_merkle_root()}")
+        print(f"  MERKLE_ROOT   | {compute_monolith_merkle_root()}")
         sys.exit(0)
     unittest.main(verbosity=2)

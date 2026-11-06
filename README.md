@@ -1,24 +1,24 @@
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  RELIKVIEHALLEN // RING II BLACK-BOX MONOLITH GALLERY (0xABCDEF00)                   ║
-║  Zero-Knowledge Conceptual Showroom & Cryptographic Seal Index                       ║
+║  MONOLITT // RING II BLACK-BOX MONOLITH INDEX (0xABCDEF00)                           ║
+║  Zero-Knowledge Structural Boundary & Cryptographic Seal Matrix                      ║
 ║  Status: v1.5.0-MASTER  |  Vault Exposure: 0.00 V DC  |  Rights: ALL RIGHTS RESERVED ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-**Relikviehallen** (*The Reliquary*) is the public boundary gallery for the **11 private Ring II sovereign production repositories** under the `0xABCDEF00` architecture.
+**Monolitt** (*The Monolith*) is the public structural boundary for the **11 private Ring II sovereign production repositories** under the `0xABCDEF00` architecture.
 
-Where **Ring I** exposes the formal epistemic laws (`epistemic-architectures`), executable consequence-gate demonstrators (`ky-rox-public-demonstrators`), theoretical working notes (`epistemic-architectures-notes`), and literary-philosophical prose (`skrivevaerelset`), **Relikviehallen** stands as thick armored glass between the public facade and the private industrial machine room (**Ring II**).
+Where **Ring I** exposes the formal epistemic laws (`epistemic-architectures`), executable consequence-gate demonstrators (`ky-rox-public-demonstrators`), theoretical working notes (`epistemic-architectures-notes`), and literary-philosophical prose (`skrivevaerelset`), **Monolitt** stands as an indivisible granite boundary between the public facade and the private industrial machine room (**Ring II**).
 
 ---
 
 ## 1. Zero-Knowledge Disclosure Protocol (Black-Box Contract)
 
-Every monolith displayed in this gallery adheres to a strict **epistemic boundary**:
+Every monolith indexed in this repository adheres to a strict **epistemic boundary**:
 
 $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow \Omega \in \{\text{OPEN}, \text{HOLD}, \text{KILL}\}$$
 
-| Layer | Publicly Exhibited in `relikviehallen` (Green Light) | Sealed in Private Ring II Vaults (Red Light — `0.00 V`) |
+| Layer | Publicly Indexed in `monolitt` (Green Light) | Sealed in Private Ring II Vaults (Red Light — `0.00 V`) |
 | :--- | :--- | :--- |
 | **1. Monolith Identity** | Canonical Monolith ID (`MONOLITH I`–`XI`) & Domain Class | Internal module trees, proprietary file paths, customer topologies |
 | **2. Epistemic Law** | Governing conservation law or barrier invariant ($\Phi \to \Pi_K \to \Omega$) | Calibrated process constants, reactor geometry, catalyst stoichiometry, Riccati weights |
@@ -46,11 +46,11 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 | **X** | `GSCX-BATTERY-ENERGY-NETWORK` | Grid-Scale Electrochemical Storage & Thermal Envelope Gate | `9a39ea7` | `1a7dd33ca0f85950` |
 | **XI** | `FEMOS-BIOMIMETIC-NITROGENASE` | Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate | `237a76c` | `15d841e81da243b0` |
 
-* **Reliquary Master Merkle Root (`SHA-256`):** `3806f04ab22b969715b1036a110c537725a458a4f95550d3c12e9d16650c725a`
+* **Monolith Master Merkle Root (`SHA-256`):** `3806f04ab22b969715b1036a110c537725a458a4f95550d3c12e9d16650c725a`
 
 ---
 
-## 3. The 11 Armored Display Cases (`MONOLITH I – XI`)
+## 3. The 11 Sealed Monoliths (`MONOLITH I – XI`)
 
 ### MONOLITH I // `GEMINI-CORE`
 
@@ -221,7 +221,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ## 4. Deterministic Verification (`make verify`)
 
-This showroom includes a zero-dependency Python 3.10+ verification suite (`verify_reliquary_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`3806f04ab22b9697...`), and audits this document against accidental IP or open-license leakage:
+This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`3806f04ab22b9697...`), and audits this document against accidental IP or open-license leakage:
 
 ```bash
 make verify
@@ -235,12 +235,12 @@ Default invocation (`make` without arguments) enters the fail-closed `HOLD` stat
 
 **Copyright © 2026 Sololys (`0xABCDEF00`). All Rights Reserved.**
 
-No license (express, implied, or open-source) is granted to copy, modify, distribute, reverse-engineer, or commercially exploit any architecture, descriptor, or system represented in this showroom or its underlying **Ring II** repositories.
+No license (express, implied, or open-source) is granted to copy, modify, distribute, reverse-engineer, or commercially exploit any architecture, descriptor, or system represented in this monolith index or its underlying **Ring II** repositories.
 
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
 ║  RING I TOPOLOGY: sololys (Root) | epistemic-architectures (Law)                     ║
 ║  ky-rox-public-demonstrators (Gate) | epistemic-architectures-notes (Notes)          ║
-║  skrivevaerelset (Word) | relikviehallen (Reliquary) // SYNC: 0xABCDEF00             ║
+║  skrivevaerelset (Word) | monolitt (The Monolith) // SYNC: 0xABCDEF00                ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 ```
