@@ -99,6 +99,8 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ### MONOLITH IV // `RTDRA`
 
+![MONOLITH IV // RTDRA (Door 27: The 30-Second Gate) Architectural Plate](assets/monolith_iv_rtdra.jpg)
+
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ MONOLITH IV // RTDRA                                       [RING II VAULT] │
@@ -146,6 +148,8 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ### MONOLITH VII // `FASE_SPEIL_v0_1`
 
+![MONOLITH VII // FASE_SPEIL_v0_1 (-240m Benthic K-POD) Architectural Plate](assets/monolith_vii_fase_speil.jpg)
+
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ MONOLITH VII // FASE_SPEIL_v0_1                            [RING II VAULT] │
@@ -160,6 +164,8 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 ```
 
 ### MONOLITH VIII // `INFRANETT`
+
+![MONOLITH VIII // INFRANETT (Causal Witness Grid) Architectural Plate](assets/monolith_viii_infranett.jpg)
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -207,6 +213,8 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 ```
 
 ### MONOLITH XI // `FEMOS-BIOMIMETIC-NITROGENASE`
+
+![MONOLITH XI // FEMOS-BIOMIMETIC-NITROGENASE Architectural Plate](assets/monolith_xi_femos.jpg)
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
