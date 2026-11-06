@@ -129,6 +129,8 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ### MONOLITH VI // `TONDERSHEELD`
 
+![MONOLITH VI // TONDERSHEELD (ISAC 77 GHz) Architectural Plate](assets/monolith_vi_isac.jpg)
+
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ MONOLITH VI // TONDERSHEELD                                [RING II VAULT] │
@@ -173,6 +175,8 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 ```
 
 ### MONOLITH IX // `ORGELKRAFT`
+
+![MONOLITH IX // ORGELKRAFT Architectural Plate](assets/monolith_ix_orgelkraft.jpg)
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
