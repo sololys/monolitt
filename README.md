@@ -1,3 +1,8 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032518.svg)](https://doi.org/10.5281/zenodo.24032518)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39?style=flat-square)](https://orcid.org/0009-0006-0431-6637)
+[![Granitum Physics](https://img.shields.io/badge/SALON-Granitum_Physics_(LinkedIn)-0A66C2?style=flat-square)](https://www.linkedin.com/groups/40622443/)
+
+
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
 ║  MONOLITT // RING II BLACK-BOX MONOLITH INDEX (0xABCDEF00)                           ║
