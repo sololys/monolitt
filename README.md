@@ -1,19 +1,14 @@
+# Monolitt — Project Map & SHA-256 Provenance Seals
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032518.svg)](https://doi.org/10.5281/zenodo.24032518)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39?style=flat-square)](https://orcid.org/0009-0006-0431-6637)
 [![Granitum Physics](https://img.shields.io/badge/SALON-Granitum_Physics_(LinkedIn)-0A66C2?style=flat-square)](https://www.linkedin.com/groups/40622443/)
 
+> **Coordinate (`5 · Seal`):** [`(0,0) sololys`](https://github.com/sololys) — [`1 · Word`](https://github.com/sololys/skrivevaerelset) → [`2 · Draft`](https://github.com/sololys/epistemic-architectures-notes) → [`3 · Rule`](https://github.com/sololys/epistemic-architectures) → [`4 · Gate`](https://github.com/sololys/ky-rox-public-demonstrators) → **`[5 · Seal]`**
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  MONOLITT // RING II BLACK-BOX MONOLITH INDEX (0xABCDEF00)                           ║
-║  Zero-Knowledge Structural Boundary & Cryptographic Seal Matrix                      ║
-║  Status: v1.5.0-MASTER  |  Vault Exposure: 0.00 V DC  |  Rights: ALL RIGHTS RESERVED ║
-╚══════════════════════════════════════════════════════════════════════════════════════╝
-```
+**Monolitt** (*The Monolith*) is the public project map and SHA-256 provenance boundary for the **11 private prototype repositories** in the `sololys` constellation.
 
-**Monolitt** (*The Monolith*) is the public structural boundary for the **11 private Ring II sovereign production repositories** under the `0xABCDEF00` architecture.
-
-Where **Ring I** exposes the formal epistemic laws (`epistemic-architectures`), executable consequence-gate demonstrators (`ky-rox-public-demonstrators`), theoretical working notes (`epistemic-architectures-notes`), and literary-philosophical prose (`skrivevaerelset`), **Monolitt** stands as an indivisible granite boundary between the public facade and the private industrial machine room (**Ring II**).
+Where the first four public rooms hold essays ([`skrivevaerelset`](https://github.com/sololys/skrivevaerelset)), working derivations ([`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)), formal rules ([`epistemic-architectures`](https://github.com/sololys/epistemic-architectures)), and runnable gate demonstrators ([`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)), **Monolitt** publishes verifiable SHA-256 descriptor seals without exposing private source trees.
 
 ---
 
@@ -270,10 +265,5 @@ Default invocation (`make` without arguments) enters the fail-closed `HOLD` stat
 
 No license (express, implied, or open-source) is granted to copy, modify, distribute, reverse-engineer, or commercially exploit any architecture, descriptor, or system represented in this monolith index or its underlying **Ring II** repositories.
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  RING I TOPOLOGY: sololys (Root) | epistemic-architectures (Law)                     ║
-║  ky-rox-public-demonstrators (Gate) | epistemic-architectures-notes (Notes)          ║
-║  skrivevaerelset (Word) | monolitt (The Monolith) // SYNC: 0xABCDEF00                ║
-╚══════════════════════════════════════════════════════════════════════════════════════╝
-```
+---
+**Metadata & Terms:** [ORCID `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [`LICENSE`](LICENSE) · [`NOTICE`](NOTICE)
