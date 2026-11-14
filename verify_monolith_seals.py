@@ -51,7 +51,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Locus Zero Monorepo & Consequence-Gated Research Kernel",
         epistemic_law="Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)",
         gate_signature="StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}",
-        witness_head="3a603d4",
+        witness_head="2bc91d6",
     ),
     MonolithSeal(
         monolith_id="MONOLITH II",
@@ -59,7 +59,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="GF(2^8) Algebraic Syndrome & Hardware Consequence Core",
         epistemic_law="S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD",
         gate_signature="Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}",
-        witness_head="5f24d9d",
+        witness_head="e12aaf1",
     ),
     MonolithSeal(
         monolith_id="MONOLITH III",
