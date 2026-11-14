@@ -51,7 +51,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Locus Zero Monorepo & Consequence-Gated Research Kernel",
         epistemic_law="Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)",
         gate_signature="StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}",
-        witness_head="a41432e",
+        witness_head="3a603d4",
     ),
     MonolithSeal(
         monolith_id="MONOLITH II",
@@ -59,7 +59,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="GF(2^8) Algebraic Syndrome & Hardware Consequence Core",
         epistemic_law="S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD",
         gate_signature="Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}",
-        witness_head="0ef1cd9",
+        witness_head="5f24d9d",
     ),
     MonolithSeal(
         monolith_id="MONOLITH III",
@@ -67,7 +67,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Industrial Orchestration & Deterministic Release Synthesis",
         epistemic_law="Idempotent Build Graph: H(Source_Tree) == H(Manifest_Target)",
         gate_signature="BuildDAG x SHA256_Manifest -> {OPEN, HOLD, KILL}",
-        witness_head="cb533d7",
+        witness_head="e61b1e3",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IV",
@@ -75,7 +75,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Real-Time Deterministic Routing & Cyber-Physical Fleet Authority",
         epistemic_law="Lyapunov Barrier V_dot <= -alpha*V & Latency <= tau_crit",
         gate_signature="TelemetryFrame x SafetyEnvelope -> {OPEN, HOLD, KILL}",
-        witness_head="1916f14",
+        witness_head="c26970a",
     ),
     MonolithSeal(
         monolith_id="MONOLITH V",
@@ -91,7 +91,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Perimeter Isolation & Fail-Closed Defensive Boundary",
         epistemic_law="Zero-Trust Ingress: P(Admit | Invalid_Signature) == 0",
         gate_signature="IngressPacket x AuthSeal -> {OPEN, HOLD, KILL}",
-        witness_head="fedd9ff",
+        witness_head="26f0feb",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VII",
@@ -99,7 +99,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Phase-Coherent State Reflection & Bidirectional Telemetry",
         epistemic_law="Phase Residual |Delta_phi| <= epsilon_lock; Drift => HOLD",
         gate_signature="ReferenceWave x ReflectedState -> {OPEN, HOLD, KILL}",
-        witness_head="d70049a",
+        witness_head="cc49399",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VIII",
@@ -107,7 +107,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage",
         epistemic_law="Hash Chain H_k = SHA256(H_{k-1} || Frame_k); Gap => HOLD",
         gate_signature="MeshCapsule x PrevHash -> {OPEN, HOLD, KILL}",
-        witness_head="477c51d",
+        witness_head="c9be2fd",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IX",
@@ -115,7 +115,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis",
         epistemic_law="Energy Boundedness: E_acoustic + E_dissipated <= E_supply",
         gate_signature="HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}",
-        witness_head="165b0cc",
+        witness_head="27b80aa",
     ),
     MonolithSeal(
         monolith_id="MONOLITH X",
@@ -123,7 +123,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Grid-Scale Electrochemical Storage & Thermal Envelope Gate",
         epistemic_law="SOC in [SOC_min, SOC_max] & dT/dt <= T_dot_max",
         gate_signature="CellMatrixState x ThermalLimit -> {OPEN, HOLD, KILL}",
-        witness_head="9a39ea7",
+        witness_head="e9b6f11",
     ),
     MonolithSeal(
         monolith_id="MONOLITH XI",
@@ -131,7 +131,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate",
         epistemic_law="Stoichiometric Mass/Charge Balance: sum(Delta_q) == 0",
         gate_signature="RedoxState x BarrierPotential -> {OPEN, HOLD, KILL}",
-        witness_head="237a76c",
+        witness_head="c4296e6",
     ),
 )
 

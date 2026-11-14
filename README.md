@@ -50,19 +50,19 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 | Monolith | Chamber Codename | Primary Domain | Vault Witness | Descriptor Seal (`SHA-256[:16]`) |
 | :--- | :--- | :--- | :--- | :--- |
-| **I** | `GEMINI-CORE` | Locus Zero Monorepo & Consequence-Gated Research Kernel | `a41432e` | `66e9cdb5d2d85407` |
-| **II** | `BRAHMAN.1` | $\mathrm{GF}(2^8)$ Algebraic Syndrome & Hardware Consequence Core | `0ef1cd9` | `acc903c83ca3fe4f` |
-| **III** | `KREATIVSYSTEMS.1` | Industrial Orchestration & Deterministic Release Synthesis | `cb533d7` | `d249f6c5c044803b` |
-| **IV** | `RTDRA` | Real-Time Deterministic Routing & Cyber-Physical Fleet Authority | `1916f14` | `25384cfe773c527f` |
+| **I** | `GEMINI-CORE` | Locus Zero Monorepo & Consequence-Gated Research Kernel | `3a603d4` | `37e47671b4048337` |
+| **II** | `BRAHMAN.1` | $\mathrm{GF}(2^8)$ Algebraic Syndrome & Hardware Consequence Core | `5f24d9d` | `0d985a28e34953c2` |
+| **III** | `KREATIVSYSTEMS.1` | Industrial Orchestration & Deterministic Release Synthesis | `e61b1e3` | `09a3925b6e53807d` |
+| **IV** | `RTDRA` | Real-Time Deterministic Routing & Cyber-Physical Fleet Authority | `c26970a` | `5ede196de878551f` |
 | **V** | `AIC-COACHING-SOVEREIGN-ENGINE` | Sovereign Decision-Support & Epistemic Drift Auditing | `cc6912f` | `636d61cd27b04338` |
-| **VI** | `TONDERSHEELD` | Perimeter Isolation & Fail-Closed Defensive Boundary | `fedd9ff` | `c3e71dfb2e150f1a` |
-| **VII** | `FASE_SPEIL_v0_1` | Phase-Coherent State Reflection & Bidirectional Telemetry | `d70049a` | `5b0f3bfd9359b7bb` |
-| **VIII** | `INFRANETT` | Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage | `477c51d` | `6ba53f60c3703b99` |
-| **IX** | `ORGELKRAFT` | Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis | `165b0cc` | `b0d4f5e3e1fc372b` |
-| **X** | `GSCX-BATTERY-ENERGY-NETWORK` | Grid-Scale Electrochemical Storage & Thermal Envelope Gate | `9a39ea7` | `1a7dd33ca0f85950` |
-| **XI** | `FEMOS-BIOMIMETIC-NITROGENASE` | Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate | `237a76c` | `15d841e81da243b0` |
+| **VI** | `TONDERSHEELD` | Perimeter Isolation & Fail-Closed Defensive Boundary | `26f0feb` | `ba20559faf258a5e` |
+| **VII** | `FASE_SPEIL_v0_1` | Phase-Coherent State Reflection & Bidirectional Telemetry | `cc49399` | `b9e157084badda8c` |
+| **VIII** | `INFRANETT` | Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage | `c9be2fd` | `946389699e32e78c` |
+| **IX** | `ORGELKRAFT` | Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis | `27b80aa` | `53518b84579d1333` |
+| **X** | `GSCX-BATTERY-ENERGY-NETWORK` | Grid-Scale Electrochemical Storage & Thermal Envelope Gate | `e9b6f11` | `85394342bccaa04b` |
+| **XI** | `FEMOS-BIOMIMETIC-NITROGENASE` | Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate | `c4296e6` | `bbc8d053f9fac3dd` |
 
-* **Monolith Master Merkle Root (`SHA-256`):** `3806f04ab22b969715b1036a110c537725a458a4f95550d3c12e9d16650c725a`
+* **Monolith Master Merkle Root (`SHA-256`):** `f11b280003e49fd141bd1a51aedd6c66bb6fbb3d62e03a21fe1753fc925fc3b1`
 
 ---
 
@@ -78,7 +78,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)      │
 │ Gate I/O    : StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}             │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (INSPIRED_BY != IMPLEMENTS)        │
-│ Witness Seal: HEAD @ a41432e  |  SHA-256[:16]: 66e9cdb5d2d85407            │
+│ Witness Seal: HEAD @ 3a603d4  |  SHA-256[:16]: 37e47671b4048337            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -93,7 +93,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD     │
 │ Gate I/O    : Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}    │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (RTL Simulation & Gate Vectors)    │
-│ Witness Seal: HEAD @ 0ef1cd9  |  SHA-256[:16]: acc903c83ca3fe4f            │
+│ Witness Seal: HEAD @ 5f24d9d  |  SHA-256[:16]: 0d985a28e34953c2            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -108,7 +108,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Idempotent Build Graph: H(Source_Tree) == H(Manifest_Target) │
 │ Gate I/O    : BuildDAG x SHA256_Manifest -> {OPEN, HOLD, KILL}             │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Reproducible Artifact Pipeline)   │
-│ Witness Seal: HEAD @ cb533d7  |  SHA-256[:16]: d249f6c5c044803b            │
+│ Witness Seal: HEAD @ e61b1e3  |  SHA-256[:16]: 09a3925b6e53807d            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -125,7 +125,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Lyapunov Barrier V_dot <= -alpha*V & Latency <= tau_crit     │
 │ Gate I/O    : TelemetryFrame x SafetyEnvelope -> {OPEN, HOLD, KILL}        │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Zero-Jitter Consequence Routing)  │
-│ Witness Seal: HEAD @ 1916f14  |  SHA-256[:16]: 25384cfe773c527f            │
+│ Witness Seal: HEAD @ c26970a  |  SHA-256[:16]: 5ede196de878551f            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -157,7 +157,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Zero-Trust Ingress: P(Admit | Invalid_Signature) == 0        │
 │ Gate I/O    : IngressPacket x AuthSeal -> {OPEN, HOLD, KILL}               │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Deterministic Containment Gate)   │
-│ Witness Seal: HEAD @ fedd9ff  |  SHA-256[:16]: c3e71dfb2e150f1a            │
+│ Witness Seal: HEAD @ 26f0feb  |  SHA-256[:16]: ba20559faf258a5e            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -174,7 +174,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Phase Residual |Delta_phi| <= epsilon_lock; Drift => HOLD    │
 │ Gate I/O    : ReferenceWave x ReflectedState -> {OPEN, HOLD, KILL}         │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Phase-Locked Mirroring Kernel)    │
-│ Witness Seal: HEAD @ d70049a  |  SHA-256[:16]: 5b0f3bfd9359b7bb            │
+│ Witness Seal: HEAD @ cc49399  |  SHA-256[:16]: b9e157084badda8c            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -191,7 +191,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Hash Chain H_k = SHA256(H_{k-1} || Frame_k); Gap => HOLD     │
 │ Gate I/O    : MeshCapsule x PrevHash -> {OPEN, HOLD, KILL}                 │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Software Append-Only Hash Ledger) │
-│ Witness Seal: HEAD @ 477c51d  |  SHA-256[:16]: 6ba53f60c3703b99            │
+│ Witness Seal: HEAD @ c9be2fd  |  SHA-256[:16]: 946389699e32e78c            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -208,7 +208,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Energy Boundedness: E_acoustic + E_dissipated <= E_supply    │
 │ Gate I/O    : HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}       │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Coupled Oscillator Simulation)    │
-│ Witness Seal: HEAD @ 165b0cc  |  SHA-256[:16]: b0d4f5e3e1fc372b            │
+│ Witness Seal: HEAD @ 27b80aa  |  SHA-256[:16]: 53518b84579d1333            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -223,7 +223,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : SOC in [SOC_min, SOC_max] & dT/dt <= T_dot_max               │
 │ Gate I/O    : CellMatrixState x ThermalLimit -> {OPEN, HOLD, KILL}         │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Electro-Thermal Barrier Model)    │
-│ Witness Seal: HEAD @ 9a39ea7  |  SHA-256[:16]: 1a7dd33ca0f85950            │
+│ Witness Seal: HEAD @ e9b6f11  |  SHA-256[:16]: 85394342bccaa04b            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -240,7 +240,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Stoichiometric Mass/Charge Balance: sum(Delta_q) == 0        │
 │ Gate I/O    : RedoxState x BarrierPotential -> {OPEN, HOLD, KILL}          │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Reaction Pathway Gate Simulator)  │
-│ Witness Seal: HEAD @ 237a76c  |  SHA-256[:16]: 15d841e81da243b0            │
+│ Witness Seal: HEAD @ c4296e6  |  SHA-256[:16]: bbc8d053f9fac3dd            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -249,7 +249,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ## 4. Deterministic Verification (`make verify`)
 
-This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`3806f04ab22b9697...`), and audits this document against accidental IP or open-license leakage:
+This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`f11b280003e49fd1...`), and audits this document against accidental IP or open-license leakage:
 
 ```bash
 make verify
