@@ -67,7 +67,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Industrial Orchestration & Deterministic Release Synthesis",
         epistemic_law="Idempotent Build Graph: H(Source_Tree) == H(Manifest_Target)",
         gate_signature="BuildDAG x SHA256_Manifest -> {OPEN, HOLD, KILL}",
-        witness_head="1f4692a",
+        witness_head="5a06c2b",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IV",
