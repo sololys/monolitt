@@ -51,7 +51,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Locus Zero Monorepo & Consequence-Gated Research Kernel",
         epistemic_law="Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)",
         gate_signature="StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}",
-        witness_head="fe91471",
+        witness_head="1e75374",
     ),
     MonolithSeal(
         monolith_id="MONOLITH II",
