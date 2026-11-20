@@ -51,7 +51,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Locus Zero Monorepo & Consequence-Gated Research Kernel",
         epistemic_law="Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)",
         gate_signature="StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}",
-        witness_head="1e75374",
+        witness_head="8687740",
     ),
     MonolithSeal(
         monolith_id="MONOLITH II",
@@ -59,7 +59,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="GF(2^8) Algebraic Syndrome & Hardware Consequence Core",
         epistemic_law="S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD",
         gate_signature="Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}",
-        witness_head="7728d33",
+        witness_head="b6ed9d9",
     ),
     MonolithSeal(
         monolith_id="MONOLITH III",
@@ -67,7 +67,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Industrial Orchestration & Deterministic Release Synthesis",
         epistemic_law="Idempotent Build Graph: H(Source_Tree) == H(Manifest_Target)",
         gate_signature="BuildDAG x SHA256_Manifest -> {OPEN, HOLD, KILL}",
-        witness_head="c7e3e1f",
+        witness_head="20bb638",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IV",
@@ -75,7 +75,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Real-Time Deterministic Routing & Cyber-Physical Fleet Authority",
         epistemic_law="Lyapunov Barrier V_dot <= -alpha*V & Latency <= tau_crit",
         gate_signature="TelemetryFrame x SafetyEnvelope -> {OPEN, HOLD, KILL}",
-        witness_head="c26970a",
+        witness_head="e631ec1",
     ),
     MonolithSeal(
         monolith_id="MONOLITH V",
@@ -91,7 +91,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Perimeter Isolation & Fail-Closed Defensive Boundary",
         epistemic_law="Zero-Trust Ingress: P(Admit | Invalid_Signature) == 0",
         gate_signature="IngressPacket x AuthSeal -> {OPEN, HOLD, KILL}",
-        witness_head="26f0feb",
+        witness_head="833bed5",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VII",
@@ -99,7 +99,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Phase-Coherent State Reflection & Bidirectional Telemetry",
         epistemic_law="Phase Residual |Delta_phi| <= epsilon_lock; Drift => HOLD",
         gate_signature="ReferenceWave x ReflectedState -> {OPEN, HOLD, KILL}",
-        witness_head="cc49399",
+        witness_head="ad5db9e",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VIII",
@@ -107,7 +107,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage",
         epistemic_law="Hash Chain H_k = SHA256(H_{k-1} || Frame_k); Gap => HOLD",
         gate_signature="MeshCapsule x PrevHash -> {OPEN, HOLD, KILL}",
-        witness_head="c9be2fd",
+        witness_head="bb8670e",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IX",
@@ -115,7 +115,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis",
         epistemic_law="Energy Boundedness: E_acoustic + E_dissipated <= E_supply",
         gate_signature="HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}",
-        witness_head="27b80aa",
+        witness_head="9365f07",
     ),
     MonolithSeal(
         monolith_id="MONOLITH X",
