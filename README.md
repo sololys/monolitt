@@ -50,7 +50,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 | Monolith | Chamber Codename | Primary Domain | Vault Witness | Descriptor Seal (`SHA-256[:16]`) |
 | :--- | :--- | :--- | :--- | :--- |
-| **I** | `GEMINI-CORE` | Locus Zero Monorepo & Consequence-Gated Research Kernel | `6a30b93` | `2cfbe2d34fa8ea56` |
+| **I** | `GEMINI-CORE` | Locus Zero Monorepo & Consequence-Gated Research Kernel | `8389b8a` | `e8c5b64557b5ccf2` |
 | **II** | `BRAHMAN.1` | $\mathrm{GF}(2^8)$ Algebraic Syndrome & Hardware Consequence Core | `b6ed9d9` | `8400af31dab2d445` |
 | **III** | `KREATIVSYSTEMS.1` | Industrial Orchestration & Deterministic Release Synthesis | `20bb638` | `132590b7711f3d25` |
 | **IV** | `RTDRA` | Real-Time Deterministic Routing & Cyber-Physical Fleet Authority | `e631ec1` | `4a24b96deb252d66` |
@@ -62,7 +62,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 | **X** | `GSCX-BATTERY-ENERGY-NETWORK` | Grid-Scale Electrochemical Storage & Thermal Envelope Gate | `e9b6f11` | `85394342bccaa04b` |
 | **XI** | `FEMOS-BIOMIMETIC-NITROGENASE` | Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate | `c4296e6` | `bbc8d053f9fac3dd` |
 
-* **Monolith Master Merkle Root (`SHA-256`):** `7ddaaa50da7c4ec1c6bf5ebfd823b3f73d4a2031f6bf725d4ca694cc2c2d00ae`
+* **Monolith Master Merkle Root (`SHA-256`):** `ce6dfc72c45714f5e972cb40ab7d0d3cc52771e3bcbefa0d92734409a9bb39e9`
 
 ---
 
@@ -78,7 +78,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)      │
 │ Gate I/O    : StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}             │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (INSPIRED_BY != IMPLEMENTS)        │
-│ Witness Seal: HEAD @ 6a30b93  |  SHA-256[:16]: 2cfbe2d34fa8ea56            │
+│ Witness Seal: HEAD @ 8389b8a  |  SHA-256[:16]: e8c5b64557b5ccf2            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -249,7 +249,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ## 4. Deterministic Verification (`make verify`)
 
-This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`7ddaaa50da7c4ec1...`), and audits this document against accidental IP or open-license leakage:
+This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`ce6dfc72c45714f5...`), and audits this document against accidental IP or open-license leakage:
 
 ```bash
 make verify
