@@ -2,13 +2,15 @@
 """
 MONOLITT // Zero-Knowledge & Cryptographic Seal Verifier (0xABCDEF00)
 =====================================================================
-Deterministic verification suite for the 11 Ring II Sovereign Monoliths.
+Deterministic verification suite for the 11 Sovereign Monoliths.
 
 Boundary Contract:
   - Evidence Tier: L1 (Locally demonstrated deterministic software only).
   - Epistemic Boundary: INSPIRED_BY != IMPLEMENTS != PROVES.
-  - IP Redaction: Zero internal source code, process parameters, or open-source
-    licenses are exposed in this monolith index. All rights reserved.
+  - License Boundary: `monolitt` itself is ALL RIGHTS RESERVED (zero MIT grant
+    in LICENSE or NOTICE); individual indexed monoliths carry explicit, honest
+    `vault_state` descriptors distinguishing private Ring II vaults from public
+    GitHub repositories.
 """
 
 from __future__ import annotations
@@ -30,7 +32,7 @@ class MonolithSeal:
     gate_signature: str
     witness_head: str
     evidence_tier: str = "L1_DETERMINISTIC_SOFTWARE"
-    vault_state: str = "PRIVATE_RING_II // 0.00 V DC"
+    vault_state: str = "PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)"
 
     def canonical_payload(self) -> str:
         return (
@@ -51,7 +53,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Locus Zero Monorepo & Consequence-Gated Research Kernel",
         epistemic_law="Phi(State) -> Pi_K(Admissibility) -> Omega(Consequence)",
         gate_signature="StateVector[N] x WitnessID -> {OPEN, HOLD, KILL}",
-        witness_head="8389b8a",
+        witness_head="6e984ae",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH II",
@@ -59,7 +62,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="GF(2^8) Algebraic Syndrome & Hardware Consequence Core",
         epistemic_law="S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD",
         gate_signature="Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}",
-        witness_head="b6ed9d9",
+        witness_head="fe8c2c0",
+        vault_state="PUBLIC_GITHUB // 0.00 V DC (MIT LICENSE)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH III",
@@ -67,7 +71,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Industrial Orchestration & Deterministic Release Synthesis",
         epistemic_law="Idempotent Build Graph: H(Source_Tree) == H(Manifest_Target)",
         gate_signature="BuildDAG x SHA256_Manifest -> {OPEN, HOLD, KILL}",
-        witness_head="20bb638",
+        witness_head="f775089",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IV",
@@ -75,7 +80,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Real-Time Deterministic Routing & Cyber-Physical Fleet Authority",
         epistemic_law="Lyapunov Barrier V_dot <= -alpha*V & Latency <= tau_crit",
         gate_signature="TelemetryFrame x SafetyEnvelope -> {OPEN, HOLD, KILL}",
-        witness_head="e631ec1",
+        witness_head="b01401c",
+        vault_state="PUBLIC_GITHUB // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH V",
@@ -83,7 +89,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Sovereign Decision-Support & Epistemic Drift Auditing",
         epistemic_law="Claim_Tier(C) <= Evidence_Tier(E); Unverified => HOLD",
         gate_signature="AssertionGraph x EvidenceChain -> {OPEN, HOLD, KILL}",
-        witness_head="cc6912f",
+        witness_head="6c65e4f",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VI",
@@ -91,7 +98,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Perimeter Isolation & Fail-Closed Defensive Boundary",
         epistemic_law="Zero-Trust Ingress: P(Admit | Invalid_Signature) == 0",
         gate_signature="IngressPacket x AuthSeal -> {OPEN, HOLD, KILL}",
-        witness_head="833bed5",
+        witness_head="aa27beb",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VII",
@@ -99,7 +107,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Phase-Coherent State Reflection & Bidirectional Telemetry",
         epistemic_law="Phase Residual |Delta_phi| <= epsilon_lock; Drift => HOLD",
         gate_signature="ReferenceWave x ReflectedState -> {OPEN, HOLD, KILL}",
-        witness_head="ad5db9e",
+        witness_head="a83167a",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH VIII",
@@ -107,7 +116,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage",
         epistemic_law="Hash Chain H_k = SHA256(H_{k-1} || Frame_k); Gap => HOLD",
         gate_signature="MeshCapsule x PrevHash -> {OPEN, HOLD, KILL}",
-        witness_head="bb8670e",
+        witness_head="edcae57",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH IX",
@@ -115,7 +125,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis",
         epistemic_law="Energy Boundedness: E_acoustic + E_dissipated <= E_supply",
         gate_signature="HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}",
-        witness_head="9365f07",
+        witness_head="a42b491",
+        vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH X",
@@ -123,7 +134,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Grid-Scale Electrochemical Storage & Thermal Envelope Gate",
         epistemic_law="SOC in [SOC_min, SOC_max] & dT/dt <= T_dot_max",
         gate_signature="CellMatrixState x ThermalLimit -> {OPEN, HOLD, KILL}",
-        witness_head="e9b6f11",
+        witness_head="d869584",
+        vault_state="PUBLIC_GITHUB // 0.00 V DC (MIT LICENSE)",
     ),
     MonolithSeal(
         monolith_id="MONOLITH XI",
@@ -131,7 +143,8 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate",
         epistemic_law="Stoichiometric Mass/Charge Balance: sum(Delta_q) == 0",
         gate_signature="RedoxState x BarrierPotential -> {OPEN, HOLD, KILL}",
-        witness_head="c4296e6",
+        witness_head="60ecfdd",
+        vault_state="PUBLIC_GITHUB // 0.00 V DC (MIT LICENSE)",
     ),
 )
 
@@ -149,23 +162,33 @@ class TestMonolithIndex(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.repo_root = pathlib.Path(__file__).resolve().parent
         cls.readme_path = cls.repo_root / "README.md"
+        cls.license_path = cls.repo_root / "LICENSE"
+        cls.notice_path = cls.repo_root / "NOTICE"
         cls.readme_text = cls.readme_path.read_text(encoding="utf-8")
+        cls.license_text = cls.license_path.read_text(encoding="utf-8")
+        cls.notice_text = cls.notice_path.read_text(encoding="utf-8")
 
     def test_00_zero_ip_leakage_and_merkle_root(self) -> None:
         self.assertEqual(len(RING_II_MONOLITHS), 11)
         merkle = compute_monolith_merkle_root()
         self.assertEqual(len(merkle), 64)
-        self.assertIn(merkle[:16], self.readme_text)
+        self.assertIn(merkle, self.readme_text)
         self.assertIn("ALL RIGHTS RESERVED", self.readme_text)
+        self.assertIn("ALL RIGHTS RESERVED", self.license_text)
+        self.assertIn("All Rights Reserved", self.notice_text)
+        self.assertNotIn("MIT License", self.license_text)
+        self.assertNotIn("MIT License", self.notice_text)
         self.assertIn("INSPIRED_BY != IMPLEMENTS != PROVES", self.readme_text)
         forbidden_tokens = (
             "Permission is hereby granted, free of charge",
             "Apache License, Version 2.0",
             "GNU GENERAL PUBLIC LICENSE",
-            "/home/sololyset",
+            "/home/" + "sololyset",
         )
         for token in forbidden_tokens:
             self.assertNotIn(token, self.readme_text)
+            self.assertNotIn(token, self.license_text)
+            self.assertNotIn(token, self.notice_text)
 
     def _verify_monolith_card(self, index: int) -> None:
         m = RING_II_MONOLITHS[index]
@@ -175,6 +198,7 @@ class TestMonolithIndex(unittest.TestCase):
         self.assertIn(m.codename, self.readme_text)
         self.assertIn(m.witness_head, self.readme_text)
         self.assertIn(seal_prefix, self.readme_text)
+        self.assertIn(m.vault_state, self.readme_text)
 
     def test_01_monolith_i_gemini_core(self) -> None:
         self._verify_monolith_card(0)
@@ -213,11 +237,14 @@ class TestMonolithIndex(unittest.TestCase):
 if __name__ == "__main__":
     if "--print-seals" in sys.argv or "--verify" in sys.argv:
         print(
-            f"[MONOLITT // 0xABCDEF00] Auditing 11 Ring II Monolith Seals "
+            f"[MONOLITT // 0xABCDEF00] Auditing 11 Sovereign Monolith Seals "
             f"(Merkle: {compute_monolith_merkle_root()[:16]}...)"
         )
         for m in RING_II_MONOLITHS:
-            print(f"  {m.monolith_id:<13} | {m.codename:<30} | {m.witness_head} | {m.sha256_seal()[:16]}")
+            print(
+                f"  {m.monolith_id:<13} | {m.codename:<30} | "
+                f"{m.witness_head} | {m.sha256_seal()[:16]} | {m.vault_state}"
+            )
         print(f"  MERKLE_ROOT   | {compute_monolith_merkle_root()}")
         sys.exit(0)
     unittest.main(verbosity=2)

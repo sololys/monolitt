@@ -1,33 +1,36 @@
-NOTICE AND ONTOLOGICAL SCOPE BOUNDARY
-=====================================
+NOTICE AND PROPRIETARY PROVENANCE BOUNDARY
+==========================================
 
 Repository : https://github.com/sololys/monolitt
-Copyright  : Copyright (c) 2026 Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
-State      : L1 / L1.5 Deterministic Verification Surface (0.00 V DC // HOLD)
+Copyright  : Copyright (c) 2026 Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637) / Sololys (0xABCDEF00). All Rights Reserved.
+State      : L1 Deterministic Provenance Index (0.00 V DC // HOLD)
 
-1. Ontological Scope of Delivered Artifacts (MIT License)
----------------------------------------------------------
-The executable scripts, algebraic reference models, synthesizable L1.5 reference
-descriptions, and verification harnesses actually present in this repository
-constitute "the Software" licensed under the MIT License in `LICENSE`. All
-delivered artifacts operate strictly as local deterministic verifiers at
-0.00 V DC (`PHYSICAL_AUTHORITY = NONE`, `INSPIRED_BY != IMPLEMENTS != PROVES`).
+1. Proprietary Scope of This Index (All Rights Reserved)
+--------------------------------------------------------
+All descriptor cards, cryptographic verification scripts (`verify_monolith_seals.py`),
+literary prologues, and architectural plates (`assets/`) in `monolitt` are held
+under exclusive copyright (`ALL RIGHTS RESERVED`; see `LICENSE`). No open-source
+license is granted over this index or over any private Ring II vault referenced
+herein.
 
-2. Undelivered Physical Systems and Patent Boundary
----------------------------------------------------
-Physical L2/L3 hardware actuators, bench-calibrated industrial process
-parameters, private production vaults, and subject matter covered by separate
-patent filings are ontologically absent from and never delivered by this
-repository. Because they do not form part of "the Software" furnished herein,
-nothing in this repository grants, by implication, exhaustion, or estoppel, any
-patent license, hardware implementation right, or safety certification over
-undelivered physical systems or external industrial deployments.
+2. Distinction Between Private Ring II Vaults and Public Sibling Repositories
+-----------------------------------------------------------------------------
+`monolitt` records 7-character `HEAD` commit witnesses and SHA-256 descriptor
+seals across 11 sovereign monolith repositories:
+  - Private Ring II vaults (`GEMINI-CORE`, `KREATIVSYSTEMS.1`,
+    `AIC-COACHING-SOVEREIGN-ENGINE`, `TONDERSHEELD`, `FASE_SPEIL_v0_1`,
+    `INFRANETT`, `ORGELKRAFT`) remain strictly private (`ALL RIGHTS RESERVED`).
+  - Publicly hosted repositories (`BRAHMAN.1`, `RTDRA`,
+    `GSCX-BATTERY-ENERGY-NETWORK`, `FEMOS-BIOMIMETIC-NITROGENASE`) carry their
+    own repository-level license terms (`ALL RIGHTS RESERVED` in `RTDRA`;
+    separate software-only licenses in `BRAHMAN.1`,
+    `GSCX-BATTERY-ENERGY-NETWORK`, and `FEMOS-BIOMIMETIC-NITROGENASE`).
 
-3. Literary Passages and Identifiers
-------------------------------------
-Where literary prologues or philosophical essays accompany technical indices,
-their verbatim prose integrity is additionally stewarded for citation under
-Creative Commons Attribution-NoDerivatives 4.0 International (`CC-BY-ND-4.0`).
-Project names, architectural sigils, and identifiers (`Granitum Physics`,
-`ReismannPoint`, `Kreativ-Core`, `Sololys`, `0xABCDEF00`) are retained for
-origin identification and are not licensed as commercial trademarks.
+3. Epistemic and Patent Demarcation (0.00 V DC)
+-----------------------------------------------
+All seals and checks in this repository operate strictly at Evidence Tier `L1`
+(`PHYSICAL_AUTHORITY = NONE`, `INSPIRED_BY != IMPLEMENTS != PROVES`). Software
+hash chains are append-only cryptographic ledgers, not physical WORM hardware
+media. Nothing in this repository grants, by implication, exhaustion, or
+estoppel, any patent license, hardware implementation right, safety
+certification, or commercial trademark right (`Sololys`, `0xABCDEF00`).
