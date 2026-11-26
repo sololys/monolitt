@@ -62,7 +62,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="GF(2^8) Algebraic Syndrome & Hardware Consequence Core",
         epistemic_law="S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD",
         gate_signature="Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}",
-        witness_head="fe8c2c0",
+        witness_head="dd6821a",
         vault_state="PUBLIC_GITHUB // 0.00 V DC (MIT LICENSE)",
     ),
     MonolithSeal(
@@ -125,7 +125,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis",
         epistemic_law="Energy Boundedness: E_acoustic + E_dissipated <= E_supply",
         gate_signature="HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}",
-        witness_head="a42b491",
+        witness_head="5cae47c",
         vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(

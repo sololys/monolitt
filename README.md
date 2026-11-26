@@ -51,18 +51,18 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 | Monolith | Chamber Codename | Primary Domain | Visibility & License | Witness | Descriptor Seal (`SHA-256[:16]`) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **I** | `GEMINI-CORE` | Locus Zero Monorepo & Consequence-Gated Research Kernel | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `6e984ae` | `59cb2f092de689c8` |
-| **II** | [`BRAHMAN.1`](https://github.com/sololys/Brahman.1) | $\mathrm{GF}(2^8)$ Algebraic Syndrome & Hardware Consequence Core | `PUBLIC_GITHUB` (`MIT`) | `fe8c2c0` | `425696e7fa544239` |
+| **II** | [`BRAHMAN.1`](https://github.com/sololys/Brahman.1) | $\mathrm{GF}(2^8)$ Algebraic Syndrome & Hardware Consequence Core | `PUBLIC_GITHUB` (`MIT`) | `dd6821a` | `42f067e1c70fc3c5` |
 | **III** | `KREATIVSYSTEMS.1` | Industrial Orchestration & Deterministic Release Synthesis | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `f775089` | `b02a565d152ff514` |
 | **IV** | [`RTDRA`](https://github.com/sololys/RTDRA) | Real-Time Deterministic Routing & Cyber-Physical Fleet Authority | `PUBLIC_GITHUB` (`ALL RIGHTS RESERVED`) | `b01401c` | `73a066d1ea1c4f5c` |
 | **V** | `AIC-COACHING-SOVEREIGN-ENGINE` | Sovereign Decision-Support & Epistemic Drift Auditing | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `6c65e4f` | `a783c0bef968603f` |
 | **VI** | `TONDERSHEELD` | Perimeter Isolation & Fail-Closed Defensive Boundary | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `aa27beb` | `a917d4ae75217ed1` |
 | **VII** | `FASE_SPEIL_v0_1` | Phase-Coherent State Reflection & Bidirectional Telemetry | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `a83167a` | `98e11bec1cbdbb36` |
 | **VIII** | `INFRANETT` | Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `edcae57` | `7c9e9ff8f85feb53` |
-| **IX** | `ORGELKRAFT` | Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `a42b491` | `71720310cfc430ba` |
+| **IX** | `ORGELKRAFT` | Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `5cae47c` | `d128cdce522875b3` |
 | **X** | [`GSCX-BATTERY-ENERGY-NETWORK`](https://github.com/sololys/gscx-battery-energy-network) | Grid-Scale Electrochemical Storage & Thermal Envelope Gate | `PUBLIC_GITHUB` (`MIT`) | `d869584` | `7eab227db5b585ab` |
 | **XI** | [`FEMOS-BIOMIMETIC-NITROGENASE`](https://github.com/sololys/femos-biomimetic-nitrogenase) | Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate | `PUBLIC_GITHUB` (`MIT`) | `60ecfdd` | `b7a89c129c37afc8` |
 
-* **Monolith Master Merkle Root (`SHA-256`):** `5df19c0a0616918164d701e09aff1f147bcc2f8485bc10a16b1dbb77107e9cde`
+* **Monolith Master Merkle Root (`SHA-256`):** `23e70d7b176b011e9367492be1f53c4b2147eecc1d5b9c0da9f4dbde95e02240`
 
 ---
 
@@ -93,7 +93,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : S(r) = H * r^T in GF(2^8) [p(x) = 0x11D]; S != 0 => HOLD     │
 │ Gate I/O    : Frame[208B] x CRC32 -> {OPEN (24V), HOLD (0V), KILL (0V)}    │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (RTL Simulation & Gate Vectors)    │
-│ Witness Seal: HEAD @ fe8c2c0  |  SHA-256[:16]: 425696e7fa544239            │
+│ Witness Seal: HEAD @ dd6821a  |  SHA-256[:16]: 42f067e1c70fc3c5            │
 │ Vault State : PUBLIC_GITHUB // 0.00 V DC (MIT LICENSE)                     │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -208,7 +208,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Energy Boundedness: E_acoustic + E_dissipated <= E_supply    │
 │ Gate I/O    : HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}       │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Coupled Oscillator Simulation)    │
-│ Witness Seal: HEAD @ a42b491  |  SHA-256[:16]: 71720310cfc430ba            │
+│ Witness Seal: HEAD @ 5cae47c  |  SHA-256[:16]: d128cdce522875b3            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -249,7 +249,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ## 4. Deterministic Verification (`make verify`)
 
-This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`5df19c0a06169181...`), and audits `README.md`, `LICENSE`, and `NOTICE` against accidental IP or license leakage:
+This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`23e70d7b176b011e...`), and audits `README.md`, `LICENSE`, and `NOTICE` against accidental IP or license leakage:
 
 ```bash
 make verify
