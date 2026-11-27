@@ -143,7 +143,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate",
         epistemic_law="Stoichiometric Mass/Charge Balance: sum(Delta_q) == 0",
         gate_signature="RedoxState x BarrierPotential -> {OPEN, HOLD, KILL}",
-        witness_head="60ecfdd",
+        witness_head="b61d62b",
         vault_state="PUBLIC_GITHUB // 0.00 V DC (MIT LICENSE)",
     ),
 )
