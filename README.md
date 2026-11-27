@@ -57,12 +57,12 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 | **V** | `AIC-COACHING-SOVEREIGN-ENGINE` | Sovereign Decision-Support & Epistemic Drift Auditing | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `6c65e4f` | `a783c0bef968603f` |
 | **VI** | `TONDERSHEELD` | Perimeter Isolation & Fail-Closed Defensive Boundary | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `aa27beb` | `a917d4ae75217ed1` |
 | **VII** | `FASE_SPEIL_v0_1` | Phase-Coherent State Reflection & Bidirectional Telemetry | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `a83167a` | `98e11bec1cbdbb36` |
-| **VIII** | `INFRANETT` | Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `cceb585` | `8ea56b9aacce8fc5` |
+| **VIII** | `INFRANETT` | Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `f020779` | `8fb468ed5dcf86f5` |
 | **IX** | `ORGELKRAFT` | Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis | `PRIVATE_RING_II` (`ALL RIGHTS RESERVED`) | `658be3f` | `fb7c048a2fcf4430` |
 | **X** | [`GSCX-BATTERY-ENERGY-NETWORK`](https://github.com/sololys/gscx-battery-energy-network) | Grid-Scale Electrochemical Storage & Thermal Envelope Gate | `PUBLIC_GITHUB` (`MIT`) | `d869584` | `7eab227db5b585ab` |
 | **XI** | [`FEMOS-BIOMIMETIC-NITROGENASE`](https://github.com/sololys/femos-biomimetic-nitrogenase) | Biomimetic FeMo-Cofactor Catalytic Simulation & Reaction Gate | `PUBLIC_GITHUB` (`MIT`) | `ea2752b` | `47d7aad64d9dc318` |
 
-* **Monolith Master Merkle Root (`SHA-256`):** `534298061d18ca1dd70713b4b6937ef00c07d08443f48037aa4f204f9483b3bb`
+* **Monolith Master Merkle Root (`SHA-256`):** `eb8f807559887242a80bd67939f01705883fd04afbfb249ed0cd1efbf357f7cb`
 
 ---
 
@@ -191,7 +191,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 │ Invariant   : Hash Chain H_k = SHA256(H_{k-1} || Frame_k); Gap => HOLD     │
 │ Gate I/O    : MeshCapsule x PrevHash -> {OPEN, HOLD, KILL}                 │
 │ Evidence    : L1_DETERMINISTIC_SOFTWARE (Software Append-Only Hash Ledger) │
-│ Witness Seal: HEAD @ cceb585  |  SHA-256[:16]: 8ea56b9aacce8fc5            │
+│ Witness Seal: HEAD @ f020779  |  SHA-256[:16]: 8fb468ed5dcf86f5            │
 │ Vault State : PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)           │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -249,7 +249,7 @@ $$\Phi(\text{State}) \longrightarrow \Pi_K(\text{Admissibility}) \longrightarrow
 
 ## 4. Deterministic Verification (`make verify`)
 
-This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`8e7cf48decba8d8a...`), and audits `README.md`, `LICENSE`, and `NOTICE` against accidental IP or license leakage:
+This repository includes a zero-dependency Python 3.10+ verification suite (`verify_monolith_seals.py`) that recomputes the 11 SHA-256 monolith descriptors, verifies the master Merkle root (`eb8f807559887242...`), and audits `README.md`, `LICENSE`, and `NOTICE` against accidental IP or license leakage:
 
 ```bash
 make verify
