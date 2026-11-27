@@ -125,7 +125,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Harmonic-Acoustic & Electro-Mechanical Actuation Synthesis",
         epistemic_law="Energy Boundedness: E_acoustic + E_dissipated <= E_supply",
         gate_signature="HarmonicRegister x PressureState -> {OPEN, HOLD, KILL}",
-        witness_head="5cae47c",
+        witness_head="658be3f",
         vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
