@@ -116,7 +116,7 @@ RING_II_MONOLITHS: Tuple[MonolithSeal, ...] = (
         domain_class="Air-Gapped Mesh Transport & Append-Only Hash-Chain Storage",
         epistemic_law="Hash Chain H_k = SHA256(H_{k-1} || Frame_k); Gap => HOLD",
         gate_signature="MeshCapsule x PrevHash -> {OPEN, HOLD, KILL}",
-        witness_head="edcae57",
+        witness_head="cceb585",
         vault_state="PRIVATE_RING_II // 0.00 V DC (ALL RIGHTS RESERVED)",
     ),
     MonolithSeal(
